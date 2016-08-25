@@ -14,9 +14,11 @@
     <string name="User">Nombre usuario</string>
     <string name="passwordAgain">Contraseña de nuevo</string>
     <string name="email">Correo electrónico</string>
-    <string name="signUp">Registrar</string>
+    <string name="signUp">Registro</string>
     <string name="pleaseWait">Espera por favor</string>
     <string name="logout">Cerrar sesión</string>
     <string name="carnet">Número de carnet</string>
     <string name="notyet">¿Aún no tienes cuenta?</string>
+    <string name="ihave">¿Ya tienes cuenta? Accede</string>
+    <string name="createaccount">Crear cuenta</string>
 </resources>
