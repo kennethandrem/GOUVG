@@ -19,86 +19,110 @@ android:fillViewport="true"
         tools:context="com.wokonik.kenneth.gouvg.SignUpActivity"
         android:background="@color/colorPrimary">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:background="@color/colorPrimary">
-
-
-        <ImageView android:src="@drawable/gouvggreen"
-            android:layout_width="192dp"
-            android:layout_height="192dp"
-            android:layout_gravity="center_horizontal" />
-
-        <android.support.design.widget.TextInputLayout
-            android:id="@+id/text_input_layout3"
-            android:layout_width="300dp"
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColorHint="@color/white">
+            android:paddingTop="56dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
 
-            <EditText
-                android:id="@+id/carnetText"
+            <ImageView android:src="@drawable/gouvggreen"
+                android:layout_width="192dp"
+                android:layout_height="192dp"
+                android:layout_marginBottom="24dp"
+                android:layout_gravity="center_horizontal" />
+
+            <!--  Student ID Label -->
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:hint="@string/carnet"
-                android:textColor="#fff"/>
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="18dip"
+                android:fontFamily="sans-serif-condensed">
+                <EditText android:id="@+id/input_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords"
+                    android:hint="@string/carnet"
+                    android:textSize="18dip"
+                    android:fontFamily="sans-serif-condensed"/>
+            </android.support.design.widget.TextInputLayout>
 
-        </android.support.design.widget.TextInputLayout>
-
-        <android.support.design.widget.TextInputLayout
-            android:id="@+id/text_input_layout"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content">
-
-            <EditText
-                android:id="@+id/userText"
+            <!--  Name Label -->
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:hint="@string/User"
-                android:textColor="#fff"/>
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="18dip"
+                android:fontFamily="sans-serif-condensed">
+                <EditText android:id="@+id/input_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords"
+                    android:hint="@string/User"
+                    android:textSize="18dip"
+                    android:fontFamily="sans-serif-condensed"/>
+            </android.support.design.widget.TextInputLayout>
 
-        </android.support.design.widget.TextInputLayout>
-        <android.support.design.widget.TextInputLayout
-            android:id="@+id/text_input_layout2"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content">
-
-            <EditText
-                android:id="@+id/emailText"
+            <!-- Email Label -->
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:inputType="textEmailAddress"
-                android:hint="@string/email"
-                android:textColor="#fff"/>
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="18dip"
+                android:fontFamily="sans-serif-condensed">
+                <EditText android:id="@+id/input_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:hint="@string/email"
+                    android:textSize="18dip"
+                    android:fontFamily="sans-serif-condensed"/>
+            </android.support.design.widget.TextInputLayout>
 
-        </android.support.design.widget.TextInputLayout>
-
-        <android.support.design.widget.TextInputLayout
-            android:id="@+id/pass_input_layout3"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content">
-
-            <EditText
-                android:id="@+id/passText"
-                android:inputType="textPassword"
+            <!-- Password Label -->
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:hint="@string/password"
-                android:textColor="#fff"/>
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="18dip"
+                android:fontFamily="sans-serif-condensed">
+                <EditText android:id="@+id/input_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="@string/password"
+                    android:textSize="18dip"
+                    android:fontFamily="sans-serif-condensed"/>
+            </android.support.design.widget.TextInputLayout>
 
-        </android.support.design.widget.TextInputLayout>
+            <!-- Signup Button -->
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_signup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:text="Create Account"
+                android:textSize="18dip"
+                android:fontFamily="sans-serif-condensed"
+                android:background="@color/colorPrimaryDark"/>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/signUp"
-            android:background="@color/colorPrimaryDark"
-            android:id="@+id/btnSignUp"
-            android:textColor="#fff"/>
+            <TextView android:id="@+id/link_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="Already a member? Login"
+                android:gravity="center"
+                android:textSize="16dip"/>
 
-    </LinearLayout>
+        </LinearLayout>
 
 </RelativeLayout>
 </ScrollView>

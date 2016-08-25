@@ -11,11 +11,12 @@
     <string name="username">Usuario</string>
     <string name="password">Contraseña</string>
     <string name="login">Acceder</string>
-    <string name="User">Usuario</string>
+    <string name="User">Nombre usuario</string>
     <string name="passwordAgain">Contraseña de nuevo</string>
     <string name="email">Correo electrónico</string>
     <string name="signUp">Registrar</string>
     <string name="pleaseWait">Espera por favor</string>
     <string name="logout">Cerrar sesión</string>
-    <string name="carnet">Numero de carnet</string>
+    <string name="carnet">Número de carnet</string>
+    <string name="notyet">¿Aún no tienes cuenta?</string>
 </resources>
