@@ -17,4 +17,5 @@
     <string name="signUp">Sign Up</string>
     <string name="pleaseWait">Pleas Wait</string>
     <string name="logout">Logout</string>
+    <string name="carnet">Student ID</string>
 </resources>

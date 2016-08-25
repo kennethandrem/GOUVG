@@ -17,4 +17,5 @@
     <string name="signUp">Registrar</string>
     <string name="pleaseWait">Espera por favor</string>
     <string name="logout">Cerrar sesión</string>
+    <string name="carnet">Numero de carnet</string>
 </resources>
