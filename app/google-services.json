@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "120607484586",
+    "firebase_url": "https://go-uvg.firebaseio.com",
+    "project_id": "go-uvg",
+    "storage_bucket": "go-uvg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120607484586:android:b4351a5fac57d3ef",
+        "android_client_info": {
+          "package_name": "com.wokonik.kenneth.gouvg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120607484586-bpnnqddar3sotlti5s8n9hbila7dj8d5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnIsn6Ca1t5OZC1RHd2v6kJ-azcwgQr94"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GOUVG</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="access_token"></string>
+
+
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Acceder</string>
+    <string name="User">Usuario</string>
+    <string name="passwordAgain">Contraseña de nuevo</string>
+    <string name="email">Correo electrónico</string>
+    <string name="signUp">Registrar</string>
+    <string name="pleaseWait">Espera por favor</string>
+    <string name="logout">Cerrar sesión</string>
+</resources>

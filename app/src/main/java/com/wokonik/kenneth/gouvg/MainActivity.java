@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -64,7 +66,8 @@ public class MainActivity extends AppCompatActivity
 
                 // Add a basic marker view
                 mapboxMap.addMarker(new MarkerViewOptions()
-                        .position(new LatLng(14.6220757,-90.5166444)));
+                        .position(new LatLng(14.6220757,-90.5166444))
+                );
 
                 IconFactory iconFactory = IconFactory.getInstance(MainActivity.this);
                 Drawable iconDrawable = ContextCompat.getDrawable(MainActivity.this, R.drawable.ic_menu_send);
@@ -77,8 +80,7 @@ public class MainActivity extends AppCompatActivity
                         .rotation(90)
                         .anchor(0.5f, 0.5f)
                         .alpha(0.5f)
-                        .title("Hisense Arena")
-                        .snippet("Olympic Blvd, Melbourne VIC 3001, Australia")
+                        .title("Tu destino")
                         .infoWindowAnchor(0.5f, 0.5f)
                         .flat(true));
             }
